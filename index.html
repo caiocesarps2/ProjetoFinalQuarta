@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/module/carregaDados.js" defer></script>
+    <script src="https://kit.fontawesome.com/2a64a434a4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <title>Locadora de Filmes</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <!-- <i class="fa-solid fa-house"></i> -->
+                 <span>LLC FLIX</span>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Quem somos</a></li>
+                <li><a href="#nossos-valores">Valores</a></li>
+                <li><a href="#recomendados">Recomendados</a></li>
+                <li><a href="#catalogo">Catalogo</a></li>
+            </ul>
+        </nav>
+        <div class="container" id="home">
+            <h1>Bem-vindo ao LLC FLIX!</h1>
+            <p>Escolha o seu filme e compre já!</p>
+        </div>
+    </header>
+    <div class="sobre-nos" id="sobre">
+        <div class="title-sobre-nos">
+            <h2>Quem Somos Nós - LLC FLIX</h2>
+        </div>
+        <div class="text-content">
+            <p>Bem-vindo ao <b>LLC FLIX!</b> Somos uma plataforma dedicada a levar o melhor do cinema diretamente para sua tela, com uma vasta coleção de filmes que atendem a todos os gostos e estilos. Nosso objetivo é proporcionar uma experiência de entretenimento única e de qualidade, com um catálogo diversificado, que inclui desde os clássicos atemporais até as últimas estreias.</p>
+            <br>
+            <p><strong>Nossa missão</strong> é transformar a forma como você assiste a filmes online, oferecendo não só um serviço rápido e acessível, mas também uma curadoria cuidadosa para garantir que você sempre encontre algo incrível para assistir. Acreditamos que o cinema é uma forma poderosa de contar histórias, e queremos ser o seu portal para esse mundo fascinante.</p>
+            <br>
+            <p>Com o <b>LLC FLIX</b>, você pode explorar filmes de todos os gêneros, com uma interface amigável e recursos que tornam a sua navegação simples e agradável. Não importa se você é um fã de ação, romance, comédia ou ficção científica – temos algo para todos.</p>
+        </div>
+    </div>
+    <div class="valores" id="nossos-valores">
+        <h2>Por que escolher o LLC FLIX?</h2>
+        <div class="grid-container">
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                </div>
+                <h3>Variedade:</h3>
+                <p>Um vasto catálogo que se atualiza constantemente.</p>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa-solid fa-fire"></i>
+                </div>
+                <h3>Facilidade:</h3>
+                <p>Plataforma simples de usar, onde você encontra o que deseja rapidamente.</p>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa-solid fa-ranking-star"></i>
+                </div>
+                <h3>Qualidade</h3>
+                <p>Filmes em alta definição para uma experiência de assistir impecável.</p>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <h3>Atendimento ao cliente </h3>
+                <p>Estamos sempre prontos para ajudar e garantir sua satisfação.</p>
+            </div>
+        </div>
+    </div>
+    <div class="bg-color" id="recomendados">
+        <h2>Filmes Recomendados</h2>
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <div class="slide first">
+                    <a href="https://www.youtube.com/watch?v=iYPkB-1d_iI" target="_blank"><img src="imagens/silviosantostrailer.jpg" alt="Trailer do filme do Silvio Santos 2024"></a>
+                </div>
+                <div class="slide">
+                    <a href="https://www.youtube.com/watch?v=9MqJ8BgGZPw" target="_blank"><img src="imagens/arcanoetrailer.jpg" alt="Trailer do filme Arca de Noé 2024"></a>
+                </div>
+                <div class="slide">
+                    <a href="https://www.youtube.com/watch?v=Jd0GLMX9MOw" target="_blank"><img src="imagens/mercenariostrailer.jpg" alt="Trailer do filme Os Mercenários 2024"></a>
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn-1"></div>
+                    <div class="auto-btn-2"></div>
+                    <div class="auto-btn-3"></div>
+                </div>
+            </div>
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+        </div>
+    </div>
+    <section id="catalogo">
+        <div id="container" class="center">
+            <div class="titulo">
+                <span>CATALOGO DE FILMES</span>
+            </div>
+            <div class="conteudo" >
+                <div class="produtos" id="cardProdutos">
+                   
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+</main>    
+<footer>
+    <div id="footer">
+       <div id="caixa_footer" class="center">
+            <span>Copyright © todos os direitos reservados LLC FLIX</span>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

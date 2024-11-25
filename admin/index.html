@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Sistema de Administração</title>
+    <script src="js/crud.js" defer type="module"></script>
+</head>
+<body>
+    <header>
+        Sistema de Gerenciamento da Locadora
+    </header>
+
+    <div id="principal">
+        <h1>Cadastro de Filmes</h1>
+        <form id="form">
+            <label>Nome</label> 
+            <input type="text" name="txt_title" id="nome" placeholder="Nome do Filme" ><br>
+            <label>Sinopse</label> 
+            <textarea id="sinopse"></textarea><br>
+            <label>Imagem</label> 
+            <input type="text" name="txt_image" id="image" placeholder="Link da Capa do Filme" ><br>
+            <label>Valor</label> 
+            <input type="text" name="txt_price" id="valor" placeholder="Valor do Filme" ><br>
+            <div id="salvar"> Salvar </div>
+        </form>
+    </div>
+
+    <div id="listFilmes">
+        <h1> Filmes </h1>
+        <div class="linha">
+            <div class="titulo">Nome</div>
+            <div class="titulo">Valor</div>
+            <div class="titulo">Opções</div>
+        </div>
+        <div id="listDados">
+        </div>
+       
+    </div>
+
+    <footer>
+        <span>Copyright © todos os direitos reservados</span>
+        <span>Desenvolvido por:Luan Oliveira Teixeira, Caio Cesar Penha, Lucas Dutra F. Costa </script></span>
+    </footer>
+</body>
+</html>
