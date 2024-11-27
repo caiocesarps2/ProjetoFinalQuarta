@@ -219,8 +219,8 @@ nav ul li a:hover{
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    width: 85%;
-    gap: 25px;
+    gap: 60px;
+    margin: 0 auto;
 }
 
 .grid i{
@@ -237,6 +237,10 @@ nav ul li a:hover{
 
 .grid{
     width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .grid h3{
