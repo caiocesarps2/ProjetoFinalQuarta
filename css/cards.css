@@ -52,7 +52,7 @@ body,h1,h2,ul,li{
 
 .caixa_produto{
     width: 250px;
-    height: 400px;
+    height: 420px;
     float: left;
     margin-left: 20px;
     margin-right: 20px;
@@ -63,14 +63,16 @@ body,h1,h2,ul,li{
 
 .caixa_titulo{
     width: inherit;
-    height: 60px;
+    height: 50px;
     background-color: #372136;
     font-family: verdana;
     color: #ffffff;
     text-align: center;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
     box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 5px;
     padding-top: 15px;
     border-radius: 5px 5px 0 0 ;
 }
